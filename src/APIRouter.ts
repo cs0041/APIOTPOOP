@@ -13,8 +13,8 @@ import OOPUser from './OOPUser'
 let transporter = nodemailer.createTransport({
   host: 'smtp-mail.outlook.com',
   auth: {
-    user: 'devtestforapi101@outlook.com',
-    pass: '123456789devtestforapi',
+    user: '',
+    pass: '',
   },
 })
 
