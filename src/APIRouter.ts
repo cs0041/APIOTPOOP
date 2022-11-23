@@ -218,31 +218,3 @@ router.post('/sendverifyOTP', async (req, res) => {
 
 module.exports = router
 
-//http://localhost:5000/user/verifyOTP
-// {
-//     "userID":"634ef2258c984f3e0bce4fb6",
-//     "otp":"1234"
-// }
-
-//http://localhost:5000/user/sendverifyOTP
-// {
-//     "userID":"634ef2258c984f3e0bce4fb6",
-//     "email":"sometimewanna01@hotmail.com"
-// }
-
-//http://localhost:5000/user/resendOTPVerificationCode
-// {
-//     "userID":"634ef2258c984f3e0bce4fb6",
-//     "email":"sometimewanna01@hotmail.com"
-// }
-
-//http://localhost:5000/user/singup
-// {
-//      "account":"9691235010",
-//          "contactus":"KMTIL",
-//          "email":"sometimewanna01@hotmail.com",
-//          "pin":"4124",
-//          "limitperday":"100000",
-//          "address":"KMTIL  25/5 636",
-//          "phone":"0581251514"
-// }
